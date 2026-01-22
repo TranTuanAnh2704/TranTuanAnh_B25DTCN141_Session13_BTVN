@@ -1,0 +1,33 @@
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.form-card {
+  width: 100%;
+  max-width: 600px; /* Chiều dài: 600px */
+  max-height: calc(100vh - 48px); /* Tạo scroll nếu quá cao */
+  overflow: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.form-title {
+  font-weight: 700;
+}
+
+.form-subtitle {
+  color: #6c757d;
+}
+
+.form-label {
+  font-weight: 500;
+}
